@@ -10,13 +10,18 @@ approach to testing that your function is correct. You may choose to use an exis
 testing library for your language if you choose, or you may write your own process if
 you prefer.
 For example, your function should behave something like the following:
+
 >> next_server_number([5, 3, 1])
 2
+
 >> next_server_number([5, 4, 1, 2])
 3
+
 >> next_server_number([3, 2, 1])
 4
+
 >> next_server_number([2, 3])
 1
+
 >> next_server_number([])
 1
